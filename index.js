@@ -3,6 +3,7 @@ const cors = require('cors');
 const express = require('express');
 const corsOptions = require('./helpers/cors-options.js');
 const freightRoute = require('./routes/freight');
+require('dotenv').config();
 
 const app = express();
 app.use(bodyParser.json());
