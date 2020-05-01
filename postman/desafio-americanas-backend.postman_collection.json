@@ -1,0 +1,51 @@
+{
+	"info": {
+		"_postman_id": "3e5049d0-2ec9-4b36-912f-77c6f99c6155",
+		"name": "desafio-americanas-backend",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "freight",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-request-username",
+						"value": "hackaton",
+						"type": "text"
+					},
+					{
+						"key": "x-request-identifier",
+						"value": "43a531e8-0d03-4803-aea4-ab01e586350c",
+						"type": "text"
+					},
+					{
+						"key": "origin",
+						"value": "localhost",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/freight/01234560",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"freight",
+						"01234560"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
